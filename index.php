@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // testtest
 require_once('appvars.php');
@@ -14,6 +14,7 @@ if(isset($_POST['submit'])){
 ?>
 
 // Bug fix by imaizume
+// This fix is also by imaizume
 <!DOCTYPE html>
 <html lang="ja">
 <head>
