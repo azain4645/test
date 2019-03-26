@@ -1,4 +1,6 @@
 <?php 
+
+// testtest
 require_once('appvars.php');
 $pbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME) or die('エラー：サーバーとの接続に失敗しました');
 
