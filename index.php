@@ -11,6 +11,7 @@ if(isset($_POST['submit'])){
 };
 ?>
 
+// Bug fix by imaizume
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -75,7 +76,7 @@ if(isset($_POST['submit'])){
 
             $query = "select * from anser";
             $result = mysqli_query($pbc, $query) or die('エラー：データベースの問い合わせに失敗');
-            
+
             while ($row = mysqli_fetch_array($result)){
                 echo '<tr>';
                 echo '<td>' . '<input type="checkbox" value="' . $row['id'] . '" name="todelete[]"></td>';
